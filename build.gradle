@@ -43,6 +43,7 @@ contracts {
     baseClassMappings {
         baseClassMapping(".*blankQuiz.*", "com.thoughtworks.exam.quiz.BlankQuizBase")
     }
+    testMode = 'Explicit'
 }
 
 test {

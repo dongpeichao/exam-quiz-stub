@@ -7,7 +7,7 @@ public abstract class BlankQuizBase {
 
     @BeforeEach
     public void setup() {
-        RestAssured.baseURI = "http://oms:8000";
+        RestAssured.baseURI = "http://localhost:8000";
     }
 
 }
