@@ -42,6 +42,7 @@ contracts {
     packageWithBaseClasses = 'com.thoughtworks.exam.quiz'
     baseClassMappings {
         baseClassMapping(".*blankQuiz.*", "com.thoughtworks.exam.quiz.BlankQuizBase")
+        baseClassMapping(".*blankPaper.*", "com.thoughtworks.exam.quiz.BlankPaperBase")
     }
     testMode = 'Explicit'
 }

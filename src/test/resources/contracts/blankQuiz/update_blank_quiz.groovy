@@ -4,7 +4,7 @@ import org.springframework.cloud.contract.spec.Contract
 
 Contract.make {
 //    inProgress()
-    description "should create a blank quiz"
+    description "should update a blank quiz"
 
     request {
         url  $(consumer("/quizzes/${regex('[a-zA-Z-0-9]{36}')}"), producer("/quizzes/" +'d18f752b-c34e-4be9-b7d1-766a618497f1'))
@@ -22,5 +22,6 @@ Contract.make {
 
     response {
         status NO_CONTENT()
+
     }
 }
