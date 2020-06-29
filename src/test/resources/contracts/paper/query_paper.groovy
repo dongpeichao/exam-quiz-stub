@@ -1,4 +1,4 @@
-package blankPaper
+package paper
 
 import org.springframework.cloud.contract.spec.Contract
 
